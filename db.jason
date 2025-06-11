@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João",
+      "email": "joao@google.com"
+      "password": "senha123",
+      "role":"ADM",
+      "permissions":{
+        "setRoles": true,  //Pode definir funções de outros usuários//
+        "editAll": true,   //Pode editar todos os usuários//
+        "deleteAll": true, //Pode excluir todos os usuários//
+        "viewAll": true,   //Pode ver todos os usuários//
+        "editOwn":true,    //Pode editar seus próprios dados//
+        "deleteOwn": true  //Pode excluir sua própria conta//
+      }
+    },
+    {
+      "id": 2,
+      "name": "Maria",
+      "email": "maria@google.com"
+      "password":"senha123",
+      "role": "Supervisor",
+      "permissions":{
+        "setRoles": false,  //Não pode definir funções//
+        "editAll": false,  //Não pode editar outros usuários//
+        "deleteAll:"false, //Não pode excluir outros usuários//
+        "viewAll": true,   //Pode ver todos os usuários(apenas nome e função)//
+        "editOwn": true,   //Pode editar seus próprios dados//
+        "deleteOwn": false,// Não pode excluir sua prórpia conta//
+      }
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "email": "pedro@google.com"
+      "password": "senha123",
+      "role": "Especialista",
+      "permissions":{
+       "setRoles": false, //Não pode definir funções//
+       "editAll": false, // Não pode editar outros usuários//
+       "deleteAll": false, //Não pode excluir outros usuários//
+       "viewAll": false,  //Só pode ver seus próprios dados//
+       "editOwn": true,   //Pode editar seus próprios dados//
+       "deleteOwn": false, // Não pode excluir sua própria conta//
+      }
+    },
+    /* Os demais usuários seguem o mesmo padrão com suas respectivas permissões*/
+    {
+      "id": 4,
+      "name": "Ana",
+      "email": "ana@google.com"
+      "password": "senha123",
+      "role": "Especialista",
+      "permissions":{
+        setRoles:false,
+        "editAll": false,
+        "deleteAll": false,
+        "viewAll": false,
+        "editOwn": true,
+        "deleteOwn": false
+
+      }
+
+    },
+    {
+      "id": 5,
+      "name": "Carlos",
+      "email": "carlos@google.com"
+      "password": "senha123",
+      "role": "Supervisor",
+      "permissions":{
+        "setRoles": false,
+        "editAll": false,
+        "deleteAll": false,
+        "viewAll": true,
+        "editOwn": true,
+        "deleteOwn": false
+      }
+    },
+    {
+      "id": 6,
+      "name": "Julia",
+      "email": "julia@google.com"
+    },
+    {
+      "id": 7,
+      "name": "Lucas",
+      "email": "lucas@google.com"
+    },
+    {
+      "id": 8,
+      "name": "Beatriz",
+      "email": "beatriz@google.com"
+    },
+    {
+      "id": "490e",
+      "name": "José",
+      "email": "Jose@google.com"
+    },
+    {
+      "id": "fdc3",
+      "name": "Silvana",
+      "email": "silvana@google.com"
+      "password": "senha123",
+      "role":"ADM",
+      "permissions":{
+      "setRoles": true,
+      "editAll": true,
+      "deleteAll": true,
+      "viewAll": true,
+      "editOwn": true,
+      "deleteOwn": true
+      }
+    }
+  ]
+}
